@@ -3,6 +3,10 @@
 Статичный веб-дашборд для интернет-магазина украшений ручной работы: выгрузка заказов в CSV превращается в экран с выручкой, топом товаров, продажами по категориям и динамикой по дням.
 Работает офлайн — открывается двойным щелчком по `app/index.html`, без сервера, сборки, npm и интернета.
 
+**Демо:** [loparenok01-cpu.github.io/handmade-style-dashboard/app](https://loparenok01-cpu.github.io/handmade-style-dashboard/app/) — дашборд с демо-данными на GitHub Pages.
+
+![Экран дашборда: ключевые показатели, топ-5 товаров, категории и продажи по дням](docs/screenshot.png)
+
 ---
 
 ## Содержание
@@ -69,14 +73,19 @@
 
 ## Быстрый старт
 
+**Вариант 1 — демо в браузере:** откройте
+[loparenok01-cpu.github.io/handmade-style-dashboard/app](https://loparenok01-cpu.github.io/handmade-style-dashboard/app/).
+Ничего устанавливать не нужно.
+
+**Вариант 2 — локально:**
+
 ```bash
 git clone https://github.com/loparenok01-cpu/handmade-style-dashboard.git
 cd handmade-style-dashboard
 ```
 
 Дальше — без терминала: откройте **`app/index.html`** двойным щелчком в Chrome / Firefox / Edge.
-
-Установка чего-либо не нужна. Демо-данные (20 заказов за 01–10 июля 2026) подключены по умолчанию.
+Демо-данные (20 заказов за 01–10 июля 2026) подключены по умолчанию.
 
 ---
 
@@ -191,7 +200,8 @@ handmade-style-dashboard/
 │   ├── data.js
 │   └── orders-sample.csv     # демо-выгрузка
 └── docs/
-    └── шаблон_заказов.xlsx   # шаблон для заполнения заказами
+    ├── шаблон_заказов.xlsx   # шаблон для заполнения заказами
+    └── screenshot.png        # скриншот дашборда для README
 ```
 
 ---
